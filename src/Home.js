@@ -145,7 +145,7 @@ const Home = () => {
     title: "8:00 PM",
     cardTitle: "Train Ride Together",
     url: "https://www.google.com/maps/place/57+St-7+Av/@40.7633484,-73.9803936,17z/data=!4m9!1m2!2m1!1sQ!3m5!1s0x89c258f78785e36f:0x5dc19262e7b89500!8m2!3d40.7655439!4d-73.9803258!16s%2Fm%2F048bjfk?entry=ttu",
-    cardDetailedText: "This wasn't a huge or signficant part in general, but to me it was one of my favorite times. I always rode the train alone and never thought much of it. But today I was able to enjoy a ride together with you resting on my shoulder. I was having butterflies in my stomach as you rested your head on me and your hair was so beautiful. ",
+    cardDetailedText: "This wasn't a huge or signficant part in general, but to me it was one of my favorite times. I always rode the train alone and never thought much of it. But today I was able to enjoy a ride together with you resting on my shoulder. I was having butterflies in my stomach as you rested your head on me and your hair was so beautiful. Fun fact, Adonis and Zeng were also on this train, but we never got to see them. They followed us and ended up eating chicken in the store right next to us. Don't find them creepy, this is just Zeng's payback for what I did to him.",
     media: {
       name: "QTRAIN",
       source: {
