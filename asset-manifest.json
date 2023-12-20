@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MarelleChristmasGift2023/static/css/main.e82e43f9.css",
+    "main.js": "/MarelleChristmasGift2023/static/js/main.457c4122.js",
+    "static/js/787.876f118f.chunk.js": "/MarelleChristmasGift2023/static/js/787.876f118f.chunk.js",
+    "static/media/m3.jpg": "/MarelleChristmasGift2023/static/media/m3.3603e6ac9af055518e20.jpg",
+    "static/media/ma1.jpg": "/MarelleChristmasGift2023/static/media/ma1.0936e83a3ffd04dd3ba0.jpg",
+    "static/media/m4.jpg": "/MarelleChristmasGift2023/static/media/m4.78be2d4897ab0de7f910.jpg",
+    "static/media/m5.jpg": "/MarelleChristmasGift2023/static/media/m5.8bbe365b5425ae68bed7.jpg",
+    "static/media/m6.jpg": "/MarelleChristmasGift2023/static/media/m6.e9b2b8a359602dfe9a12.jpg",
+    "static/media/m2.jpg": "/MarelleChristmasGift2023/static/media/m2.361e5b435639c01a51e4.jpg",
+    "index.html": "/MarelleChristmasGift2023/index.html",
+    "main.e82e43f9.css.map": "/MarelleChristmasGift2023/static/css/main.e82e43f9.css.map",
+    "main.457c4122.js.map": "/MarelleChristmasGift2023/static/js/main.457c4122.js.map",
+    "787.876f118f.chunk.js.map": "/MarelleChristmasGift2023/static/js/787.876f118f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e82e43f9.css",
+    "static/js/main.457c4122.js"
+  ]
+}
