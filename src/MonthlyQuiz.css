@@ -1,0 +1,5 @@
+.Monthly-Quiz-Box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
