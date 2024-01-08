@@ -56,7 +56,13 @@ p {
     box-shadow: 0 0.5em 0.5em -0.4em purple;
     transform: translateY(-0.25em);
 }
-
+.raise-correct {
+    color: #30cf80;
+}
+.raise-correct:hover, .raise-correct:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #8AAAE5;
+    transform: translateY(-0.25em);
+}
 button {
     background: none;
     border: 2px solid;

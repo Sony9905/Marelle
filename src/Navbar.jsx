@@ -62,7 +62,7 @@ function Navbar() {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                    <Link to={`${page}`} style={{ textDecoration: 'none' }}>
+                    <Link to={`${page}`} style={{ textDecoration: 'none', color: '#8AAAE5' }}>
                         {page}
                     </Link>
                   </Typography>
@@ -77,7 +77,7 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', fontFamily : 'Martian Mono', textDecoration: 'none', mx: { xs: 1, md: 2 } }}
               >
-                <Link to={`${page}`} style={{ textDecoration: 'none', fontWeight: '600'}}>
+                <Link to={`/Marelle/${page}`} style={{ textDecoration: 'none', fontWeight: '600'}}>
                     {page}
                  </Link>
               </Button>

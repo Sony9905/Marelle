@@ -276,7 +276,9 @@ const MonthlyQuiz = () => {
   const [questions, setQuestions] = useState(Questions[month]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState(null);
-
+  const [correctCount, setCorrectCount] = useState(0);
+  const [answered, setAnswered] = useState(false);
+  const [correctAnswer, setCorrectAnswer] = useState(false);
   const setDateValue = (event) => {
     const selectedMonth = event.target.value;
     setMonth(selectedMonth);
@@ -287,11 +289,18 @@ const MonthlyQuiz = () => {
 
   const handleAnswer = (answer) => {
     setUserAnswer(answer);
+    const isCorrect = questions[currentQuestionIndex].Answers.find((ans) => ans.text === answer)?.isCorrect;
+    setCorrectAnswer(isCorrect);
+    if (isCorrect) {
+      setCorrectCount((prevCount) => prevCount + 1);
+    }
+    setAnswered(true);
   };
 
   const handleNextQuestion = () => {
     setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     setUserAnswer(null);
+    setAnswered(false); // Reset the answered state for the next question
   };
 
   const handlePreviousQuestion = () => {
@@ -353,28 +362,34 @@ const MonthlyQuiz = () => {
         </FormControl>
         {questions && (
           <div>
+            <h1>You have {correctCount} correct</h1>
             <h3>Question {currentQuestionIndex + 1}:</h3>
             <p>{questions[currentQuestionIndex].Question}</p>
             {shuffledChoices.map((choice, index) => (
               <button
-                className='raise'
+              className={`raise${answered && choice === userAnswer ? (correctAnswer ? '-correct' : '-incorrect') : ''}`}
                 key={index}
                 onClick={() => handleAnswer(choice)}
+                disabled = {answered === false? false : true}
               >
                 {choice}
               </button>
             ))}
             {userAnswer && (
-              <>
-                <img
-                  src={questions[currentQuestionIndex].Answers.find(answer => answer.text === userAnswer).image}
-                  alt={`${userAnswer} Image`}
-                />
-                <p>
-                  {questions[currentQuestionIndex].Answers.find(answer => answer.text === userAnswer).feedback}
-                </p>
-              </>
-            )}
+          <>
+            <img
+              src={questions[currentQuestionIndex].Answers.find((answer) => answer.text === userAnswer).image}
+              alt={`${userAnswer} Image`}
+            />
+            <p>
+              {answered
+                ? correctAnswer
+                  ? 'Correct! ' + questions[currentQuestionIndex].Answers.find((answer) => answer.text === userAnswer).feedback
+                  : 'Wrong Answer ' + questions[currentQuestionIndex].Answers.find((answer) => answer.text === userAnswer).feedback
+                : ''}
+            </p>
+          </>
+        )}
             <div>
               <button
                 className='raise'
