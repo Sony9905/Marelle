@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/Marelle/static/css/main.75dcb260.css",
-    "main.js": "/Marelle/static/js/main.68a39358.js",
+    "main.css": "/Marelle/static/css/main.5e4c001c.css",
+    "main.js": "/Marelle/static/js/main.1dcbe32d.js",
     "static/js/787.876f118f.chunk.js": "/Marelle/static/js/787.876f118f.chunk.js",
+    "static/media/Valentine3.mp4": "/Marelle/static/media/Valentine3.24e002ca2c57c16d8117.mp4",
     "static/media/m3.jpg": "/Marelle/static/media/m3.3603e6ac9af055518e20.jpg",
     "static/media/ma1.jpg": "/Marelle/static/media/ma1.0936e83a3ffd04dd3ba0.jpg",
     "static/media/m4.jpg": "/Marelle/static/media/m4.78be2d4897ab0de7f910.jpg",
     "static/media/m5.jpg": "/Marelle/static/media/m5.8bbe365b5425ae68bed7.jpg",
     "static/media/m6.jpg": "/Marelle/static/media/m6.e9b2b8a359602dfe9a12.jpg",
+    "static/media/Jan12024puzzle.jpg": "/Marelle/static/media/Jan12024puzzle.66b9243b9b6edeaf74b2.jpg",
+    "static/media/Jan132024.jpg": "/Marelle/static/media/Jan132024.f4c842f8658a5ed67e1b.jpg",
     "static/media/m2.jpg": "/Marelle/static/media/m2.361e5b435639c01a51e4.jpg",
+    "static/media/Jan12024.jpg": "/Marelle/static/media/Jan12024.3727cf39d8d6a2d9cd16.jpg",
+    "static/media/Jan142024.jpg": "/Marelle/static/media/Jan142024.980d298e7a46718e7a5a.jpg",
+    "static/media/dec30.jpg": "/Marelle/static/media/dec30.a6a788849e5b6583434e.jpg",
+    "static/media/Jan262024.jpg": "/Marelle/static/media/Jan262024.276fb960c455591771a9.jpg",
+    "static/media/Jan292024.jpg": "/Marelle/static/media/Jan292024.07bab5bda01acd078037.jpg",
+    "static/media/Valentine1.jpg": "/Marelle/static/media/Valentine1.c963450e5cc6a0f9f6cd.jpg",
+    "static/media/misty.jpg": "/Marelle/static/media/misty.9a58bc797bc2fed64f5a.jpg",
+    "static/media/Valentine2.jpg": "/Marelle/static/media/Valentine2.a395e6817f7c5f672b57.jpg",
+    "static/media/Jan22024.jpg": "/Marelle/static/media/Jan22024.79d7e52927613710f2d1.jpg",
     "index.html": "/Marelle/index.html",
-    "main.75dcb260.css.map": "/Marelle/static/css/main.75dcb260.css.map",
-    "main.68a39358.js.map": "/Marelle/static/js/main.68a39358.js.map",
+    "main.5e4c001c.css.map": "/Marelle/static/css/main.5e4c001c.css.map",
+    "main.1dcbe32d.js.map": "/Marelle/static/js/main.1dcbe32d.js.map",
     "787.876f118f.chunk.js.map": "/Marelle/static/js/787.876f118f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75dcb260.css",
-    "static/js/main.68a39358.js"
+    "static/css/main.5e4c001c.css",
+    "static/js/main.1dcbe32d.js"
   ]
 }
