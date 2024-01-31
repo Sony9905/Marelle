@@ -1,0 +1,20 @@
+.Monthly-Quiz-Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Style for images */
+  .quiz-image {
+    max-width: 300px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures content is not cropped */
+    margin-bottom: 20px; /* Space below the image */
+    border-radius: 10px; /* Optional: Adds rounded corners to your images */
+  }
+
+.raise-incorrect {
+    color: rgb(218, 36, 12);
+}

@@ -1,0 +1,45 @@
+.Valentine {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Valentine img {
+    width: 100%; /* Makes the image responsive */
+    max-width: 600px; /* Maximum size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .Valentine video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .Valentine button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .Valentine img, .Valentine video {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Valentine img, .Valentine video {
+      max-width: 300px;
+    }
+  
+    .Valentine button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }
