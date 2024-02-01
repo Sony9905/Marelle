@@ -317,88 +317,88 @@ const Questions = {
       {
         Question: "Which day was the most luckiest day for you?",
         Answers: [{
-            text: "Yokato Yokabai",
+            text: "Jan 29",
             isCorrect: true,
             image: 'https://media.tenor.com/7SSK-Y2kkuEAAAAj/sweet.gif',
-            feedback: "Holy shit, good memory babe!"
+            feedback: "Holy shit, good memory, it actually was the 29th, where you lost your phone, got it back, and your entire food situation got sorted. "
         },
         {
-            text: "Kento Ramen",
+            text: "Jan 30",
             isCorrect: false,
             image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
-            feedback: "Not even close"
+            feedback: "SO CLOSE"
         },{
-            text: "Bento Yokobai",
+            text: "Jan 31",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
             feedback: "Good guess cutie, but nope"
         },
         {
-            text: "Yokato Ramen",
+            text: "Jan 28",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/0c/6c/27/0c6c27554d838a0cd53c4d10dd0313f5.gif',
-            feedback: "HONESTLY I WOULD OF CHOSE THIS ONE TOOO"
+            feedback: "Really bad memory oof"
         }]
       },
       {
-        Question: "What was the first gift I gave to you?",
+        Question: "What was one of the the massive tea's of this months track meetup?",
         Answers: [{
-            text: "Tommy Hilfiger Scarf",
+            text: "Javonte and his fiance getting into a crash",
             isCorrect: true,
             image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
-            feedback: "YAAAAAAAAAY, I KNEW MY CUTIE WAS SO SMART"
+            feedback: "I don't know, this was so unexpected"
         },
         {
-            text: "Dino Keychain",
+            text: "Kevin knocking up a girl",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/0c/6c/27/0c6c27554d838a0cd53c4d10dd0313f5.gif',
-            feedback: "Sorry cutie, this was the last one I gave you on our first date."
+            feedback: "This is just false"
         },{
-            text: "JJK Pins",
+            text: "Johnathan knocking up a girl",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/ee/a1/43/eea143ba06f716e3b44ff5bb26d5e0d5.gif',
-            feedback: "If you chose this, just say you don't love me or my gifts."
+            feedback: "THIS IS TRUE BUT NOT AS MASSIVE"
         },
         {
-            text: "Calvin Klein Scarf",
+            text: "Kevin finding his date sleeping with another man.",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/4d/8f/21/4d8f216c3333e6538eaef085ac4bdf45.gif',
-            feedback: "Seriously?????? THERE IS A H ON THE SCARF MADAM"
+            feedback: "This was just unfortunate."
         }]
       },
       {
-        Question: "What did we order before ice skating in Bryant Park?",
+        Question: "What did I say your most distinct feature was during the get together on Jan 29?",
         Answers: [{
-            text: "Mint and Vanilla Hot Chocolate",
+            text: "Your smile",
             isCorrect: true,
             image: 'https://media.tenor.com/7SSK-Y2kkuEAAAAj/sweet.gif',
-            feedback: "You had an upset tummy right after and yours didnt even have any Vanilla LMAO. "
+            feedback: "Correct! Still true"
         },
         {
-            text: "Mint and Regular Hot Chocolate",
+            text: "Your eyes",
             isCorrect: false,
             image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
-            feedback: "Ooooof so close, try again cutie."
+            feedback: "Your eyes are gorgeous but not your most distinct and amazing feature."
         },{
-            text: "Cookies and cream ice cream",
+            text: "Your butt",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
-            feedback: "This was dessert cutie, try again"
+            feedback: "I mean..."
         },
         {
-            text: "Vanilla Ice Cream",
+            text: "Your sense of fashion",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/4d/8f/21/4d8f216c3333e6538eaef085ac4bdf45.gif',
-            feedback: "Nah you are waaaaay off."
+            feedback: "It's amazing but your smile is TOP TIER"
         }]
       },
       {
-        Question: "Which KDrama did we spend 2 nights binging?",
+        Question: "Which KDrama did we start watching this month?",
         Answers: [{
-            text: "The Glory",
+            text: "Itawon Class",
             isCorrect: true,
             image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
-            feedback: "You were persistent on this Kdrama, you better have remembered."
+            feedback: "I TOLD YOU THIS WAS GOOD"
         },
         {
             text: "Bad Guys",
@@ -406,120 +406,120 @@ const Questions = {
             image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
             feedback: "This was all action and men, way off cutie"
         },{
-            text: "Itawon Class",
+            text: "The Glory",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
-            feedback: "You said no to this like 50 times, if you chose this, you really have bad memory cutie. "
+            feedback: "Your memory is a little hazy cutie, this was last month. "
         },
         {
-            text: "Middle School Revenge",
+            text: "Reunion",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/0c/6c/27/0c6c27554d838a0cd53c4d10dd0313f5.gif',
-            feedback: "???????? I made this up just saying"
+            feedback: "I made this up???"
         }]
       },
       {
-        Question: "Which is the correct order of winners in Mario Kart? left to right, first to last",
+        Question: "Why was Zeng depressed this month",
         Answers: [{
-            text: "Marelle, Adonis, Zeng, Sony",
+            text: "Saramma reposted tiktoks the confirmed she is uninterested in him",
             isCorrect: true,
             image: 'https://i.pinimg.com/originals/06/b3/02/06b302f888e03fe4f505ccb049b5478c.gif',
-            feedback: "Yeah yeah, go to the next question before I go next irl. "
+            feedback: "Yeah he's gonna go unalive himself soon"
         },
         {
-            text: "Sony, Marelle, Adonis, Zeng",
+            text: "Saramma rejected him",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/ca/52/0f/ca520fbaa1cf8d75a52b676c220b4ca7.gif',
-            feedback: "I wish this was true"
+            feedback: "Almost true but not really"
         },{
-            text: "Marelle, Adonis, Sony, Zeng",
+            text: "Saramma found someone else",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/06/b3/02/06b302f888e03fe4f505ccb049b5478c.gif',
-            feedback: "I couldnt even go third."
+            feedback: "DEAR GOD NO, THAT WOULD BE TOO PAINFUL"
         },
         {
-            text: "Marelle, Sony, Adonis, Zeng",
+            text: "Saramma wants him to wait more",
             isCorrect: false,
             image: 'https://media.tenor.com/TEC6z0acIbUAAAAj/cute-bears-love.gif',
-            feedback: "PLEASE LET THIS ONE BE TRUE. PLEASE GOD"
+            feedback: "LMFAO HE WISHES"
         }]
       },
       {
-        Question: "How much did Zeng give you when you bought him beer at the store?",
+        Question: "What color heart do I have saved on your name in my phone?",
         Answers: [{
-            text: "20 dollars",
+            text: "black",
             isCorrect: true,
             image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
-            feedback: "Good memory! I remembered you said US money looks like monopoly money lol."
+            feedback: "This was kind of a freebie"
         },
         {
-            text: "10 dollars",
+            text: "Blue",
             isCorrect: false,
             image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
-            feedback: "Ooooof so close, try again cutie."
+            feedback: "Good try but it doesn't make sense since it's my favorite color"
         },{
-            text: "5 dollars",
+            text: "Red",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
-            feedback: "Good guess considering you had a 5 dollar canadian bill."
+            feedback: "You know I hate red cutie"
         },
         {
-            text: "50 dollars",
+            text: "white",
             isCorrect: false,
             image: 'https://media.tenor.com/TEC6z0acIbUAAAAj/cute-bears-love.gif',
-            feedback: "Nice try cutie, but we ain't that rich."
+            feedback: "I'm pretty sure this is your color"
         }]
       },
       {
-        Question: "What was the first meal we cooked together?",
+        Question: "Who did I spill tea about this month?",
         Answers: [{
-            text: "Chicken Alfredo",
+            text: "Jessica",
             isCorrect: true,
             image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
-            feedback: "I'd be upset if you didn't get this right considering you ate this two times already."
+            feedback: "Fuck this bitch"
         },
         {
-            text: "Eggs",
+            text: "Thammie",
             isCorrect: false,
             image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
-            feedback: "You would be right but this wasn't together since I made the eggs LMFAOOOO"
+            feedback: "Thats my ex, we did but we talk shit about here all the time cutie."
         },{
-            text: "Bread and Butter",
+            text: "Kim",
             isCorrect: false,
             image: 'https://cdn.svgator.com/images/2022/07/cute-animated-cat-tutorial.gif',
-            feedback: "Good guess, but we technically never made it together"
+            feedback: "I don't know a kim"
         },
         {
-            text: "Butter and Cheese Chicken",
+            text: "Saramma",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/4d/8f/21/4d8f216c3333e6538eaef085ac4bdf45.gif',
-            feedback: "What the fuck even is this"
+            feedback: "I don't have any tea on her actually"
         }]
       },
       {
-        Question: "What was the date of our brunch with Sola, Anthony, Ken, and Safia",
+        Question: "What was our first date this month?",
         Answers: [{
-            text: "January 1st",
+            text: "Mini Golf then japanese food",
             isCorrect: true,
             image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
-            feedback: "Going to be honest cutie, I thought it was the second but it was the first, thankfully I had a photo saved with the timestamp. Cutie is so smart <3"
+            feedback: "You're SO SMART!!"
         },
         {
-            text: "January 2nd",
+            text: "Japanese food then Mini Golf",
             isCorrect: false,
             image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
             feedback: "Ooooof so close, try again cutie."
         },{
-            text: "December 31st",
+            text: "Sushi",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
-            feedback: "This was way offf, we were watching the Glory that we forgot to kiss exactly at new year LOL."
+            feedback: "This one was our second one cutie"
         },
         {
-            text: "We were late and didn't go",
+            text: "Home Cook Meal and a Drama",
             isCorrect: false,
             image: 'https://i.pinimg.com/originals/de/d2/b8/ded2b8c526e192d56630e87eed03a514.gif',
-            feedback: "We were bunnies yes, but we still went! "
+            feedback: "Not EVEN CLOOOOSE"
         }]
       },
     ],
