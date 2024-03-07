@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
-import {JigsawPuzzle} from "react-jigsaw-puzzle/lib";
+import React, { useState, useEffect } from 'react';
+import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
-import './MonthlyPuzzle.css'
+import './MonthlyPuzzle.css';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -10,21 +10,65 @@ import puzzleImages from '../Data/puzzleImages';
 
 export const MonthlyPuzzle = () => {
   const [month, setMonth] = useState('December 2023');
-  const [image, setImage] = useState(false)
+  const [image, setImage] = useState(false);
+  const [timer, setTimer] = useState(0);
+  const [isActive, setIsActive] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
+
   const setDateValue = (event) => {
     const selectedMonth = event.target.value;
     setMonth(selectedMonth);
+    // Reset timer and state when changing puzzles
+    resetTimer();
   };
+
   const getRidOfImage = () => {
     setImage(true);
-  }
+  };
+
   const getImageBack = () => {
-    setImage(false)
-  }
+    setImage(false);
+  };
+
+  const startTimer = () => {
+    setIsActive(true);
+    setHasStarted(true);
+  };
+
+  const stopTimer = () => {
+    setIsActive(false);
+  };
+
+  const resetTimer = () => {
+    setTimer(0);
+    setIsActive(false);
+    setHasStarted(false);
+  };
+
+  useEffect(() => {
+    let interval = null;
+
+    if (isActive) {
+      interval = setInterval(() => {
+        setTimer(timer => timer + 1);
+      }, 1000);
+    } else if (!isActive && timer !== 0) {
+      clearInterval(interval);
+    }
+
+    return () => clearInterval(interval);
+  }, [isActive, timer]);
+
+  const displayTime = () => {
+    const minutes = Math.floor(timer / 60);
+    const seconds = timer % 60;
+    return `${minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
+  };
+
   return (
     <div>
-    <div className='puzzle-container'>
-        <FormControl >
+      <div className='puzzle-container'>
+        <FormControl>
           <InputLabel id="demo-simple-select-label">Choose Puzzle</InputLabel>
           <Select
             labelId="demo-simple-select-label"
@@ -35,8 +79,7 @@ export const MonthlyPuzzle = () => {
           >
             <MenuItem value="December 2023">December 2023</MenuItem>
             <MenuItem value="January 2024" >January 2024</MenuItem>
-            <MenuItem value="Valentine Day Special 2024" >Valentine Day Special 2024</MenuItem>
-            <MenuItem value="February 2024" disabled="true">February 2024</MenuItem>
+            <MenuItem value="February 2024" >February 2024</MenuItem>
             <MenuItem value="March 2024" disabled="true">March 2024</MenuItem>
             <MenuItem value="April 2024" disabled="true">April 2024</MenuItem>
             <MenuItem value="May 2024" disabled="true">May 2024</MenuItem>
@@ -50,10 +93,15 @@ export const MonthlyPuzzle = () => {
           </Select>
         </FormControl>
         <div className='puzzle-pic-container'>
-            <JigsawPuzzle imageSrc={puzzleImages[month]}
-                rows={10}
-                columns={10}
-                onSolved={() => alert("Solved!")}/>
+          <JigsawPuzzle
+            imageSrc={puzzleImages[month]}
+            rows={10}
+            columns={10}
+            onSolved={() => {
+              alert("Solved!");
+              stopTimer();
+            }}
+          />
             {image === false? 
             <div className='bool-image'>
                 <p>Want to make it harder?</p>
@@ -62,9 +110,20 @@ export const MonthlyPuzzle = () => {
             </div> 
             : ''
             }
+
+          {image === true? <button className='raise' onClick={getImageBack}>Go back to easy mode</button> : ''}
         </div>
-        {image === true? <button className='raise' onClick={getImageBack}>Go back to easy mode</button> : ''}
+        <div className='timer-container'>
+          <p>Timer: {displayTime()}</p>
+          {!hasStarted ? (
+            <button onClick={startTimer}>Start Timer</button>
+          ) : isActive ? (
+            <button onClick={stopTimer}>Pause Timer</button>
+          ) : (
+            <button onClick={startTimer}>Resume Timer</button>
+          )}
+        </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};

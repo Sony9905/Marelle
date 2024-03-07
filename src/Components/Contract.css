@@ -1,0 +1,30 @@
+.Contract-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', serif;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contract {
+    max-width: 800px;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .signatures {
+    margin-top: 10px;
+    text-align: center;
+  }

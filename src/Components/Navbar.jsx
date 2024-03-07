@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
-const pages = ['Marelle-Timeline', 'Monthly-Quiz', 'Memorable-Moments', "Monthly-Puzzle", "Valentine's Day Special"];
+const pages = ['Marelle-Timeline', 'Monthly-Quiz', 'Memorable-Moments', "Monthly-Puzzle", "Contract"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -88,6 +88,11 @@ function Navbar() {
               </Button>
             ))}
           </Box>
+          <img
+            src="https://i.pinimg.com/originals/44/a8/da/44a8dabf0e4bf6e2616cd0f6d0ce5912.gif"
+            alt="Navbar GIF"
+            style={{ maxHeight: '40px', marginRight: '10px' }}
+          />
         </Toolbar>
       </Container>
     </AppBar>

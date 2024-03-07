@@ -5,7 +5,8 @@ import MonthlyQuizzes from './Components/MonthlyQuiz';
 import MemorableMoments from './Components/TenMemorableMoments';
 import Navbar from './Components/Navbar';
 import { MonthlyPuzzle } from './Components/MonthlyPuzzle';
-import Valentine from './Components/Valentine';
+// import Valentine from './Components/Valentine';
+import Contract from './Components/Contract';
 const App = () => {
   return (
     <div>
@@ -15,7 +16,8 @@ const App = () => {
         <Route path ="/Marelle" exact element={<Home/>} />
         <Route path ="/Home" exact element={<Home/>} />
         <Route path ="/Timeline" exact element={<Home/>} />
-        <Route path ="/Valentine's Day Special" exact element={<Valentine/>} />
+        <Route path ="/Contract" exact element={<Contract/>} />
+        {/* <Route path ="/Valentine's Day Special" exact element={<Valentine/>} /> */}
         <Route path ="/Marelle-Timeline" exact element={<Home/>} />
         <Route path ="/Marelle/Home" exact element={<Home/>} />
         <Route path ="/Marelle/Marelle-Timeline" exact element={<Home/>} />
@@ -24,10 +26,12 @@ const App = () => {
         <Route path="/Memorable-Moments" exact element={<MemorableMoments/>} />
         <Route path="/Marelle/Memorable-Moments" exact element={<MemorableMoments/>} />
         <Route path="/Marelle/Monthly-Puzzle" exact element={<MonthlyPuzzle/>} />
-        <Route path="/Marelle/Valentine's Day Special" exact element={<Valentine/>} />
+        {/* <Route path="/Marelle/Valentine's Day Special" exact element={<Valentine/>} /> */}
+        <Route path="/Marelle/Contract" exact element={<Contract/>} />
       </Routes>
     </div>
   );
 }
 
 export default App;
+

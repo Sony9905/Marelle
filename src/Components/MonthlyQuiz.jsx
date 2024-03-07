@@ -87,7 +87,7 @@ const MonthlyQuiz = () => {
           >
             <MenuItem value="December 2023">December 2023</MenuItem>
             <MenuItem value="January 2024" >January 2024</MenuItem>
-            <MenuItem value="February 2024" disabled="true">February 2024</MenuItem>
+            <MenuItem value="February 2024" >February 2024</MenuItem>
             <MenuItem value="March 2024" disabled="true">March 2024</MenuItem>
             <MenuItem value="April 2024" disabled="true">April 2024</MenuItem>
             <MenuItem value="May 2024" disabled="true">May 2024</MenuItem>
@@ -100,6 +100,131 @@ const MonthlyQuiz = () => {
             <MenuItem value="December 2024" disabled="true">December 2024</MenuItem>
           </Select>
         </FormControl>
+        <div class="all-wrap">  
+        <div class="all">
+        <div class="yarn"></div>
+        <div class="cat-wrap">    
+        <div class="cat">
+        <div class="cat-upper">
+        <div class="cat-leg"></div>
+        <div class="cat-leg"></div>
+        <div class="cat-head">
+        <div class="cat-ears">
+        <div class="cat-ear"></div>
+        <div class="cat-ear"></div>
+        </div>
+        <div class="cat-face">
+        <div class="cat-eyes"></div>
+        <div class="cat-mouth"></div>
+        <div class="cat-whiskers"></div>
+        </div>
+        </div>
+        </div>
+        <div class="cat-lower-wrap">
+        <div class="cat-lower">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+          <div class="cat-leg">
+            <div class="cat-leg">
+              <div class="cat-leg">
+                <div class="cat-leg">
+                  <div class="cat-leg">
+                    <div class="cat-leg">
+                      <div class="cat-leg">
+                        <div class="cat-leg">
+                          <div class="cat-leg">
+                            <div class="cat-paw"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+        <div class="cat-leg">
+          <div class="cat-leg">
+            <div class="cat-leg">
+              <div class="cat-leg">
+                <div class="cat-leg">
+                  <div class="cat-leg">
+                    <div class="cat-leg">
+                      <div class="cat-leg">
+                        <div class="cat-leg">
+                          <div class="cat-leg">
+                            <div class="cat-paw"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="cat-tail">
+        <div class="cat-tail">
+        <div class="cat-tail">
+        <div class="cat-tail">
+        <div class="cat-tail">
+        <div class="cat-tail">
+        <div class="cat-tail">
+          <div class="cat-tail">
+            <div class="cat-tail">
+              <div class="cat-tail">
+                <div class="cat-tail">
+                  <div class="cat-tail">
+                    <div class="cat-tail">
+                      <div class="cat-tail">
+                        <div class="cat-tail">
+                          <div class="cat-tail -end"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
         {questions && (
           <div>
             {correctCount === 10? <h1>You got a full score for {month} </h1>: <h1>You have {correctCount} correct</h1>}
@@ -119,7 +244,7 @@ const MonthlyQuiz = () => {
           <>
             <img className="quiz-image"
               src={questions[currentQuestionIndex].Answers.find((answer) => answer.text === userAnswer).image}
-              alt={`${userAnswer} Image`}
+              alt={`${userAnswer}`}
             />
             <p>
               {answered

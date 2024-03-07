@@ -6,6 +6,8 @@ import Jan132024 from '../images/Jan132024.jpg'
 import Jan142024 from '../images/Jan142024.jpg'
 import Jan262024 from '../images/Jan262024.jpg'
 import Jan292024 from '../images/Jan292024.jpg'
+import Feb102024 from '../images/Feb102024.jpg'
+import Feb32024 from '../images/Feb32024.jpg'
 const images = [{
     image: dec30,
     text: 'This was the third time I came over, during our New Years trip. We were finally able to exchange New Year gifts!',
@@ -45,6 +47,15 @@ const images = [{
     image: Jan292024,
     text: 'Your most luckiest day yet, got lucky with your food reservation and you found your phone you lost all in the same day.',
     date: 'January 29th 2024'
-  }]
+  },
+  {
+    image: Feb32024,
+    text: 'I got shit faced pretty hard',
+    date: 'Feburary 3rd 2024'
+  },{
+    image: Feb102024,
+    text: 'Solas suprise birthday party',
+    date: 'Feburary 10th 2024'
+  },]
 
 export default images;
