@@ -784,6 +784,268 @@ const Questions = {
               feedback: "We didn't cook lol"
           }]
         },
+      ],
+      "March 2024" : [
+        {
+          Question: "Where was our first Date night for the month?",
+          Answers: [{
+              text: "Japanese restaurant",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "Nice memory"
+          },
+          {
+              text: "Stay at home and eat",
+              isCorrect: false,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "Wouldnt be a date night if we stayed home lol"
+          },{
+              text: "Sushi",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "Nope we unfortunately couldn't go."
+          },
+          {
+              text: "Pizza",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "Don't think we had a pizza date night yet"
+          }]
+        },
+        {
+          Question: "What game did we start playing this month?",
+          Answers: [{
+              text: "Pokemon Scarlet and Violet",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "I only have like 2 hours played relax"
+          },
+          {
+              text: "Pokemon X and Y",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/97/b3/ad/97b3ad13ba06c17de5cef18a4f386d19.gif',
+              feedback: "Nope"
+          },{
+              text: "Pokemon Brilliant Diamond",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/60/4c/fc/604cfcfa429f720c9a696f52829f684d.gif',
+              feedback: "I played this game solo actually"
+          },
+          {
+              text: "Pokemon legend Arcesus",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "This is my next game fr."
+          }]
+        },
+        {
+          Question: "What game did you let me borrow this month?",
+          Answers: [{
+              text: "Pokemon Brilliant Diamond",
+              isCorrect: true,
+              image: 'https://media.tenor.com/7SSK-Y2kkuEAAAAj/sweet.gif',
+              feedback: "I played games while you hanged out with Sola"
+          },
+          {
+              text: "Pokemon Shining Pearl",
+              isCorrect: false,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "I wish"
+          },{
+              text: "Pokemon Violet",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
+              feedback: "Good guess cutie, but nope sadly"
+          },
+          {
+              text: "Pokemon Scarlet",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/0c/6c/27/0c6c27554d838a0cd53c4d10dd0313f5.gif',
+              feedback: "I really fucking wish"
+          }]
+        },
+        {
+          Question: "What show did we START watching this month",
+          Answers: [{
+              text: "Slime",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "SEASON 3 CAME OUT"
+          },
+          {
+              text: "Avatar the last airbender",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/0c/6c/27/0c6c27554d838a0cd53c4d10dd0313f5.gif',
+              feedback: "THIS SHOW WAS SO GOOD"
+          },{
+              text: "Itawon Class",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/ee/a1/43/eea143ba06f716e3b44ff5bb26d5e0d5.gif',
+              feedback: "Started this two months ago"
+          },
+          {
+              text: "Frieren",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/4d/8f/21/4d8f216c3333e6538eaef085ac4bdf45.gif',
+              feedback: "You started watching this show, not us"
+          }]
+        },
+        {
+          Question: "What game did I buy you this month?",
+          Answers: [{
+              text: "Pokemon Violet",
+              isCorrect: true,
+              image: 'https://media.tenor.com/7SSK-Y2kkuEAAAAj/sweet.gif',
+              feedback: "Good memory"
+          },
+          {
+              text: "Pokemon Brilliant Diamond",
+              isCorrect: false,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "Idk how you got this wrong"
+          },{
+              text: "Pokemon Scarlet",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
+              feedback: "Good guess"
+          },
+          {
+              text: "One Piece",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/4d/8f/21/4d8f216c3333e6538eaef085ac4bdf45.gif',
+              feedback: "This was a puzzle but its still a game right?"
+          }]
+        },
+        {
+          Question: "What major event took place?",
+          Answers: [{
+              text: "Solar Eclipse",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "I want to cry, only 90% in NYC"
+          },
+          {
+              text: "I lost money",
+              isCorrect: false,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "Thankfully I didn't"
+          },{
+              text: "No boobs",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
+              feedback: "I did, in fact get boobs"
+          },
+          {
+              text: "You broke up with me",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/0c/6c/27/0c6c27554d838a0cd53c4d10dd0313f5.gif',
+              feedback: "Take a nap"
+          }]
+        },
+        {
+          Question: "What was one code we used for Pokemon S/V",
+          Answers: [{
+              text: "SWEETORSPICY",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/06/b3/02/06b302f888e03fe4f505ccb049b5478c.gif',
+              feedback: "Nice ass memory"
+          },
+          {
+              text: "SUPEREFFECTIVE",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/ca/52/0f/ca520fbaa1cf8d75a52b676c220b4ca7.gif',
+              feedback: "Damn nice"
+          },{
+              text: "LUCARIO",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/06/b3/02/06b302f888e03fe4f505ccb049b5478c.gif',
+              feedback: "This is the shiny pokemon I caught :D"
+          },
+          {
+              text: "TEAMROCKET",
+              isCorrect: false,
+              image: 'https://media.tenor.com/TEC6z0acIbUAAAAj/cute-bears-love.gif',
+              feedback: "It was team star lol"
+          }]
+        },
+        {
+          Question: "What color switch controller did I recieve from you?",
+          Answers: [{
+              text: "Blue",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "This was kind of a freebie"
+          },
+          {
+              text: "Green",
+              isCorrect: false,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "You got some bad memory"
+          },{
+              text: "Red",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
+              feedback: "You're colorblind"
+          },
+          {
+              text: "white",
+              isCorrect: false,
+              image: 'https://media.tenor.com/TEC6z0acIbUAAAAj/cute-bears-love.gif',
+              feedback: "Try again"
+          }]
+        },
+        {
+          Question: "What is the English name of your favorite pokemon?",
+          Answers: [{
+              text: "Luxray",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "hoping I got this right"
+          },
+          {
+              text: "Pikachu",
+              isCorrect: false,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "This is def wrong"
+          },{
+              text: "CeTitan",
+              isCorrect: false,
+              image: 'https://cdn.svgator.com/images/2022/07/cute-animated-cat-tutorial.gif',
+              feedback: "This was one of the pokemon we got as a gift"
+          },
+          {
+              text: "The Great Rabbit",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/4d/8f/21/4d8f216c3333e6538eaef085ac4bdf45.gif',
+              feedback: "This is the YuGiOh Card you gifted me lol."
+          }]
+        },
+        {
+          Question: "Biggest Tea of the month?",
+          Answers: [{
+              text: "Your coworker got fired!",
+              isCorrect: true,
+              image: 'https://i.pinimg.com/originals/70/11/4d/70114d826b655dc2e039fd1cf4ead227.gif',
+              feedback: "Good riddance am I right"
+          },
+          {
+              text: "Zeng got back together with Saramma",
+              isCorrect: true,
+              image: 'https://media0.giphy.com/media/SHdwS47nztG2MHCOTH/200w.gif?cid=6c09b952lb4kb5dwwobysm0aoko81ncasqoykibqfy9w3u6l&ep=v1_gifs_search&rid=200w.gif&ct=g',
+              feedback: "YESSIR, THIS IS ALSO TRUE"
+          },{
+              text: "You're not getting deported",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/f3/78/4d/f3784dc54de78b85eac662dc55ba64aa.gif',
+              feedback: "Pretty sure this was last month"
+          },
+          {
+              text: "No tea this month",
+              isCorrect: false,
+              image: 'https://i.pinimg.com/originals/de/d2/b8/ded2b8c526e192d56630e87eed03a514.gif',
+              feedback: "Nah there's always Tea"
+          }]
+        },
       ]
   };
 

@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
-const pages = ['Marelle-Timeline', 'Monthly-Quiz', 'Memorable-Moments', "Monthly-Puzzle", "Contract"];
+const pages = ['Marelle-Timeline', 'Monthly-Quiz', 'Memorable-Moments', "Monthly-Puzzle", "Contract", "Birthday-Letter"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);

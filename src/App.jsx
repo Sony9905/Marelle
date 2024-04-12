@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import { MonthlyPuzzle } from './Components/MonthlyPuzzle';
 // import Valentine from './Components/Valentine';
 import Contract from './Components/Contract';
+import BirthdayLetter from './Components/BirthdayLetter';
 const App = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path ="/Home" exact element={<Home/>} />
         <Route path ="/Timeline" exact element={<Home/>} />
         <Route path ="/Contract" exact element={<Contract/>} />
+        <Route path="/Birthday-Letter" exact element={<BirthdayLetter/>}/>
         {/* <Route path ="/Valentine's Day Special" exact element={<Valentine/>} /> */}
         <Route path ="/Marelle-Timeline" exact element={<Home/>} />
         <Route path ="/Marelle/Home" exact element={<Home/>} />
@@ -28,6 +30,7 @@ const App = () => {
         <Route path="/Marelle/Monthly-Puzzle" exact element={<MonthlyPuzzle/>} />
         {/* <Route path="/Marelle/Valentine's Day Special" exact element={<Valentine/>} /> */}
         <Route path="/Marelle/Contract" exact element={<Contract/>} />
+        <Route path="/Marelle/Birthday-Letter" exact element={<BirthdayLetter/>}/>
       </Routes>
     </div>
   );

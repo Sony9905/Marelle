@@ -8,6 +8,10 @@ import Jan262024 from '../images/Jan262024.jpg'
 import Jan292024 from '../images/Jan292024.jpg'
 import Feb102024 from '../images/Feb102024.jpg'
 import Feb32024 from '../images/Feb32024.jpg'
+import March232024 from '../images/March232024.jpg'
+import March292024 from '../images/March292024.jpg'
+import April22024 from '../images/April22024.jpg'
+
 const images = [{
     image: dec30,
     text: 'This was the third time I came over, during our New Years trip. We were finally able to exchange New Year gifts!',
@@ -56,6 +60,21 @@ const images = [{
     image: Feb102024,
     text: 'Solas suprise birthday party',
     date: 'Feburary 10th 2024'
+  },
+  {
+    image: March232024,
+    text: 'Date Night',
+    date: 'March 23rd 2024'
+  },
+  {
+    image: April22024,
+    text: 'Broke my switch controller and got a blue one!',
+    date: 'April 2nd 2024'
+  },
+  {
+    image: March292024,
+    text: 'All you can eat Korean BBQ Date Night! [4 day Weekend]',
+    date: 'March 29th 2024'
   },]
 
 export default images;

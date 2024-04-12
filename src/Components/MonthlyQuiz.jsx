@@ -88,7 +88,7 @@ const MonthlyQuiz = () => {
             <MenuItem value="December 2023">December 2023</MenuItem>
             <MenuItem value="January 2024" >January 2024</MenuItem>
             <MenuItem value="February 2024" >February 2024</MenuItem>
-            <MenuItem value="March 2024" disabled="true">March 2024</MenuItem>
+            <MenuItem value="March 2024" >March 2024</MenuItem>
             <MenuItem value="April 2024" disabled="true">April 2024</MenuItem>
             <MenuItem value="May 2024" disabled="true">May 2024</MenuItem>
             <MenuItem value="June 2024" disabled="true">June 2024</MenuItem>
@@ -227,7 +227,7 @@ const MonthlyQuiz = () => {
         </div>
         {questions && (
           <div>
-            {correctCount === 10? <h1>You got a full score for {month} </h1>: <h1>You have {correctCount} correct</h1>}
+            {correctCount === 10? <h1>You got a full score for {month} </h1>: <h1>You have {correctCount} correct. As the grand prize: Here is your gift location: It is located behind your mirror!</h1>}
             <h3>Question {currentQuestionIndex + 1}:</h3>
             <p>{questions[currentQuestionIndex].Question}</p>
             {shuffledChoices.map((choice, index) => (
