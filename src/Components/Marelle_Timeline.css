@@ -50,17 +50,17 @@ p {
 }
 
 .raise {
-    color: #8AAAE5;
+    color: #000000;
 }
 .raise:hover, .raise:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em purple;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(35, 105, 197);
     transform: translateY(-0.25em);
 }
 .raise-correct {
     color: #30cf80;
 }
 .raise-correct:hover, .raise-correct:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em #8AAAE5;
+    box-shadow: 0 0.5em 0.5em -0.4em #000000;
     transform: translateY(-0.25em);
 }
 button {

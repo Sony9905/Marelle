@@ -12,11 +12,10 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
-const pages = ['Marelle-Timeline', 'Monthly-Quiz', 'Memorable-Moments', "Monthly-Puzzle", "Contract", "Birthday-Letter"];
+const pages = ['Home', 'Marelle-Timeline', 'Monthly-Quiz', 'Memorable-Moments', "Monthly-Puzzle", "Contract"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
-
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -27,10 +26,10 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: '#8AAAE5'}}>
+    <AppBar position="static" sx={{ backgroundColor: '#000000' }} style={{ zIndex: 1 }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-        <img
+          <img
             src="https://i.pinimg.com/originals/80/5d/92/805d9290bf80860153c6804cc0ed2d3a.gif"
             alt="Navbar GIF"
             style={{ maxHeight: '40px', marginRight: '10px' }}
@@ -67,24 +66,24 @@ function Navbar() {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                    <Link to={`${page}`} style={{ textDecoration: 'none', color: '#8AAAE5' }}>
-                        {page}
+                    <Link to={`/${page}`} style={{ textDecoration: 'none', color: '#000000' }}>
+                      {page}
                     </Link>
                   </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', fontFamily : 'Martian Mono', textDecoration: 'none'}}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', fontFamily: 'Martian Mono', textDecoration: 'none' }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block', fontFamily : 'Martian Mono', textDecoration: 'none', mx: { xs: 1, md: 2 } }}
+                sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Martian Mono', textDecoration: 'none', mx: { xs: 1, md: 2 } }}
               >
-                <Link to={`/Marelle/${page}`} style={{ textDecoration: 'none', fontWeight: '600'}}>
-                    {page}
-                 </Link>
+                <Link to={`/Marelle/${page}`} style={{ textDecoration: 'none', fontWeight: '600' }}>
+                  {page}
+                </Link>
               </Button>
             ))}
           </Box>

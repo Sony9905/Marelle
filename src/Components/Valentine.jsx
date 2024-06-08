@@ -54,7 +54,7 @@ const Valentine = () => {
             <video autoPlay loop muted>
               <source src={Valentine3} type="video/mp4" />
             </video>
-            <h1 style={{color: '#8AAAE5'}}>
+            <h1 style={{color: '#000000'}}>
                 <TypeWriter options= {{
                     autoStart:true,
                     loop:true,
@@ -72,7 +72,7 @@ const Valentine = () => {
             <video autoPlay loop muted>
               <source src={Valentine3} type="video/mp4" />
             </video>
-            <h1 style={{color: '#8AAAE5'}}>
+            <h1 style={{color: '#000000'}}>
                 <TypeWriter options= {{
                     autoStart:true,
                     loop:true,

@@ -11,6 +11,12 @@ import Feb32024 from '../images/Feb32024.jpg'
 import March232024 from '../images/March232024.jpg'
 import March292024 from '../images/March292024.jpg'
 import April22024 from '../images/April22024.jpg'
+import May5 from '../images/May5.jpg'
+import May8 from '../images/May8.jpg'
+import May_11 from '../images/May_11.jpg'
+import May11 from '../images/May11.jpg'
+import May12 from '../images/may12.jpg'
+import May18 from '../images/may18.jpg'
 
 const images = [{
     image: dec30,
@@ -75,6 +81,36 @@ const images = [{
     image: March292024,
     text: 'All you can eat Korean BBQ Date Night! [4 day Weekend]',
     date: 'March 29th 2024'
+  },
+  {
+    image: May5,
+    text: 'I literally ran a 5k',
+    date: 'May 5th 2024'
+  },
+  {
+    image: May8,
+    text: 'YOUR INTERVIEW',
+    date: 'May 8th 2024'
+  },
+  {
+    image: May11,
+    text: 'SIX FLAGS',
+    date: 'May 11th 2024'
+  },
+  {
+    image: May_11,
+    text: 'Six Flags but with the prizes we won',
+    date: 'May 11th 2024'
+  },
+  {
+    image: May12,
+    text: 'Round 1 Arcade, lets ignore the fact we spent $500',
+    date: 'May 12th 2024'
+  },
+  {
+    image: May18,
+    text: 'Concert ;)',
+    date: 'May 18th 2024'
   },]
 
 export default images;

@@ -81,9 +81,9 @@ export const MonthlyPuzzle = () => {
             <MenuItem value="January 2024" >January 2024</MenuItem>
             <MenuItem value="February 2024" >February 2024</MenuItem>
             <MenuItem value="March 2024">March 2024</MenuItem>
-            <MenuItem value="April 2024" disabled="true">April 2024</MenuItem>
-            <MenuItem value="May 2024" disabled="true">May 2024</MenuItem>
-            <MenuItem value="June 2024" disabled="true">June 2024</MenuItem>
+            <MenuItem value="April 2024" >April 2024</MenuItem>
+            <MenuItem value="May 2024" >May 2024</MenuItem>
+            <MenuItem value="June 2024" >June 2024</MenuItem>
             <MenuItem value="July 2024" disabled="true">July 2024</MenuItem>
             <MenuItem value="August 2024" disabled="true">August 2024</MenuItem>
             <MenuItem value="September 2024" disabled="true">September 2024</MenuItem>

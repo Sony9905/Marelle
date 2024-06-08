@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Home.css"
+import "./Marelle_Timeline.css"
 import { Chrono } from "react-chrono";
 import TypeWriter from "typewriter-effect";
 import MA1 from '../images/ma1.jpg'
@@ -9,7 +9,7 @@ import MA4 from '../images/m4.jpg'
 import MA5 from '../images/m5.jpg'
 import MA6 from '../images/m6.jpg'
 import Gif from './Gif';
-const Home = () => {
+const Marelle_Timeline = () => {
   const items = [
     {
       title: "Start of December 9th: 6:45AM",
@@ -171,15 +171,15 @@ const Home = () => {
     <div className='Chrono-Wrapper'> 
       <div style={{ width: '950px', height: '950px' }}>
         <Chrono items={items} mode="VERTICAL_ALTERNATING" slideShow slideItemDuration={4500} slideShowType="slide_from_sides" style={{boxShadow: '10px 5px 5px black'}}theme={{
-    primary: 'purple',
-    secondary: '#8AAAE5',
-    cardBgColor: '#8AAAE5',
-    titleColor: 'Purple',
-    titleColorActive: 'White',
+    primary: 'black',
+    secondary: '#fff',
+    cardBgColor: '#fff',
+    titleColor: 'black',
+    titleColorActive: 'black',
   }}/>
       </div>
       <div className='Right-side'>
-        <h1 style={{color: '#8AAAE5'}}>
+        <h1 style={{color: '#000000'}}>
           <TypeWriter options= {{
             autoStart:true,
             loop:true,
@@ -222,4 +222,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Marelle_Timeline
