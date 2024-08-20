@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.39bcda1a.css",
-    "main.js": "/static/js/main.b70f9f0b.js",
+    "main.css": "/static/css/main.397034a4.css",
+    "main.js": "/static/js/main.9b57af1f.js",
     "static/js/787.876f118f.chunk.js": "/static/js/787.876f118f.chunk.js",
+    "static/media/eldenCat.png": "/static/media/eldenCat.ecb3e8bca24b7ccac985.png",
     "static/media/m3.jpg": "/static/media/m3.3603e6ac9af055518e20.jpg",
     "static/media/Feb102024.jpg": "/static/media/Feb102024.786bcbb27731846dff9b.jpg",
     "static/media/May5.jpg": "/static/media/May5.fc81ef1dea5b0923e22d.jpg",
     "static/media/ma1.jpg": "/static/media/ma1.0936e83a3ffd04dd3ba0.jpg",
     "static/media/m4.jpg": "/static/media/m4.78be2d4897ab0de7f910.jpg",
+    "static/media/baldSony.jpg": "/static/media/baldSony.7caa8e57bf6f28c36472.jpg",
     "static/media/m5.jpg": "/static/media/m5.8bbe365b5425ae68bed7.jpg",
     "static/media/Feb32024.jpg": "/static/media/Feb32024.5750b1357508f1b39af5.jpg",
     "static/media/m6.jpg": "/static/media/m6.e9b2b8a359602dfe9a12.jpg",
@@ -19,8 +21,10 @@
     "static/media/May11.jpg": "/static/media/May11.3f39d13e6917aedac8df.jpg",
     "static/media/Jan12024.jpg": "/static/media/Jan12024.3727cf39d8d6a2d9cd16.jpg",
     "static/media/May_11.jpg": "/static/media/May_11.c7e601905f179d36b643.jpg",
+    "static/media/SonyBirthday2024.jpg": "/static/media/SonyBirthday2024.80dbc9690c1ef4b97ec2.jpg",
     "static/media/Jan142024.jpg": "/static/media/Jan142024.980d298e7a46718e7a5a.jpg",
     "static/media/may18.jpg": "/static/media/may18.bbf57640059ba93c36c6.jpg",
+    "static/media/goose.jpg": "/static/media/goose.f9ebb59ce79c0699767d.jpg",
     "static/media/dec30.jpg": "/static/media/dec30.a6a788849e5b6583434e.jpg",
     "static/media/April22024.jpg": "/static/media/April22024.dfaedf874b8da113cd17.jpg",
     "static/media/March232024.jpg": "/static/media/March232024.6bf13daa6b5e317a1201.jpg",
@@ -28,15 +32,16 @@
     "static/media/Jan262024.jpg": "/static/media/Jan262024.276fb960c455591771a9.jpg",
     "static/media/May8.jpg": "/static/media/May8.deab117fe46c1245c90b.jpg",
     "static/media/Jan292024.jpg": "/static/media/Jan292024.07bab5bda01acd078037.jpg",
+    "static/media/Valentine1.jpg": "/static/media/Valentine1.c963450e5cc6a0f9f6cd.jpg",
+    "static/media/misty.jpg": "/static/media/misty.9a58bc797bc2fed64f5a.jpg",
     "static/media/Jan22024.jpg": "/static/media/Jan22024.79d7e52927613710f2d1.jpg",
-    "static/media/blackheart.png": "/static/media/blackheart.1e9b512f6d3f0ef14c16.png",
     "index.html": "/index.html",
-    "main.39bcda1a.css.map": "/static/css/main.39bcda1a.css.map",
-    "main.b70f9f0b.js.map": "/static/js/main.b70f9f0b.js.map",
+    "main.397034a4.css.map": "/static/css/main.397034a4.css.map",
+    "main.9b57af1f.js.map": "/static/js/main.9b57af1f.js.map",
     "787.876f118f.chunk.js.map": "/static/js/787.876f118f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39bcda1a.css",
-    "static/js/main.b70f9f0b.js"
+    "static/css/main.397034a4.css",
+    "static/js/main.9b57af1f.js"
   ]
 }
