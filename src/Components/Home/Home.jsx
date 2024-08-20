@@ -7,8 +7,8 @@ const Home = () => {
     <div className="home-container">
       <ParticleBackground />
       <div className="content">
-        <h1>Happy 6-Month Anniversary!</h1>
-        <p>Thank you for the wonderful journey together. Just 2 more weeks until I'm the longest!</p>
+        <h1>Happy 8-Month Anniversary!</h1>
+        <p>Sorry it was down for so long!</p>
       </div>
     </div>
   );

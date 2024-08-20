@@ -17,6 +17,10 @@ import May_11 from '../images/May_11.jpg'
 import May11 from '../images/May11.jpg'
 import May12 from '../images/may12.jpg'
 import May18 from '../images/may18.jpg'
+import SonyBirthday2024 from '../images/SonyBirthday2024.jpg'
+import eldenCat from '../images/eldenCat.png'
+import goose from '../images/goose.jpg'
+import baldSony from '../images/baldSony.jpg'
 
 const images = [{
     image: dec30,
@@ -111,6 +115,27 @@ const images = [{
     image: May18,
     text: 'Concert ;)',
     date: 'May 18th 2024'
-  },]
+  },
+  {
+    image: SonyBirthday2024,
+    text: 'Birthday :D',
+    date: 'June 30th 2024'
+  },
+  {
+    image: goose,
+    text: 'We won a big ass Goose, GJ MARELLE',
+    date: 'July 6th 2024'
+  },
+  {
+    image: baldSony,
+    text: 'I am bald',
+    date: 'July 31st 2024'
+  },
+  {
+    image: eldenCat,
+    text: 'For fun, I made a TikTok for Prince',
+    date: 'August 12th 2024'
+  },
+]
 
 export default images;

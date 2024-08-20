@@ -6,6 +6,11 @@ import March292024 from '../images/March292024.jpg'
 import m5 from '../images/m5.jpg'
 import May_112024 from '../images/May_11.jpg'
 import Prince from '../images/PrinceJune.jpg'
+import SonyBirthday2024 from '../images/SonyBirthday2024.jpg'
+import eldenCat from '../images/eldenCat.png'
+import goose from '../images/goose.jpg'
+import baldSony from '../images/baldSony.jpg'
+
 const puzzleImages = {
     "December 2023": dec30, 
     "January 2024": Jan142024,
@@ -14,7 +19,9 @@ const puzzleImages = {
     "March 2024": March292024,
     "April 2024": m5,
     "May 2024": May_112024,
-    "June 2024": Prince
+    "June 2024": Prince,
+    "July 2024": goose,
+    "August 2024": eldenCat
 }
 
 export default puzzleImages;

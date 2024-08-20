@@ -1,7 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
-import blackheart from '../../images/blackheart.png';
 
 const ParticleBackground = () => {
   const particlesInit = async (main) => {

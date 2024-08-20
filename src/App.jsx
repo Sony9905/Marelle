@@ -8,6 +8,8 @@ import { MonthlyPuzzle } from './Components/MonthlyPuzzle';
 // import Valentine from './Components/Valentine';
 import Contract from './Components/Contract';
 import Home from './Components/Home/Home';
+import MemoryGame from './Components/MemoryGame';
+
 
 const App = () => {
   return (
@@ -33,6 +35,8 @@ const App = () => {
         <Route path="/Marelle/Memorable-Moments" exact element={<MemorableMoments />} />
         <Route path="/Marelle/Monthly-Puzzle" exact element={<MonthlyPuzzle />} />
         {/* <Route path="/Marelle/Valentine's Day Special" exact element={<Valentine />} /> */}
+        <Route path="/MemoryGame" exact element={<MemoryGame />} />
+        <Route path="/Marelle/MemoryGame" exact element={<MemoryGame />} />
         <Route path="/Marelle/Contract" exact element={<Contract />} />
       </Routes>
     </div>
